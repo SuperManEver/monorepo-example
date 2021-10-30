@@ -6,6 +6,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "clean": "rimraf dist *.tsbuildinfo"
+  },
   "dependencies": {
     "date-fns": "^2.25.0",
     "react": "^17.0.2"
