@@ -1,14 +1,7 @@
 {
+  "extends": "../tsconfig.settings.json",
   "compilerOptions": {
-    "module": "CommonJS",
-    "types": [],
-    "sourceMap": true,
-    "target": "ES2018",
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "declaration": true,
+    "composite": true,
     "outDir": "dist",
     "rootDir": "src"
   },
