@@ -5,5 +5,15 @@
   "types": "dist/index.d.ts",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "date-fns": "^2.25.0",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/date-fns": "^2.6.0",
+    "@types/jest": "^27.0.2",
+    "@types/react": "^17.0.33",
+    "jest": "^27.3.1"
   }
 }
