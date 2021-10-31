@@ -10,6 +10,12 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "scripty",
+    "clean": "scripty",
+    "test": "scripty",
+    "lint": "scripty"
+  },
+  "scripty": {
     "path": "./scripts/workspace"
   },
   "devDependencies": {
