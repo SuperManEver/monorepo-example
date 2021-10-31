@@ -8,6 +8,7 @@
   },
   "scripts": {
     "clean": "rimraf dist *.tsbuildinfo",
+    "test": "jest",
     "build": "tsc -b ."
   },
   "devDependencies": {
