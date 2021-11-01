@@ -19,10 +19,16 @@
     "path": "./scripts/workspace"
   },
   "devDependencies": {
+    "@commitlint/cli": "^14.1.0",
+    "@commitlint/config-conventional": "^14.1.0",
+    "@commitlint/config-lerna-scopes": "^14.0.0",
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.2.0",
+    "commitlint": "^14.1.0",
     "eslint": "^8.1.0",
+    "husky": "^7.0.4",
     "lerna": "^4.0.0",
+    "lerna-changelog": "^2.2.0",
     "rimraf": "^3.0.2",
     "scripty": "^2.0.0"
   },
