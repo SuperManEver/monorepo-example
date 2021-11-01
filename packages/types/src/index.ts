@@ -19,6 +19,8 @@
  * @remarks
  * All interfaces are prefixed with `I`
  *
+ * some dum changes
+ *
  * @packageDocumentation
  */
 export { isChannel, isMessage, isTeam, isTypedArray } from "./type-guards";
